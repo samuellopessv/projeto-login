@@ -25,6 +25,37 @@ Grandes Telas: Acima de 1200 px
         float: right;
         width: 70%;
     }
+
+    form > #botao{
+        display: block;
+        text-align: center;
+        font-size: 1em;
+        width: 67%;
+        height: 40px;
+        margin: auto;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        text-decoration: none;
+        margin-top: 5px;
+        background-color: rgb(65, 65, 65);
+    }
+    form > input[type=submit]{
+        display: block;
+        font-size: 1.2em;
+        font-weight: bolder;
+        width: 67%;
+        margin: auto;
+        height: 40px;
+        background-color: red;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        
+    }
+    
+   
 }
 @media screen and (min-width: 992px)  {
     body{
@@ -32,6 +63,7 @@ Grandes Telas: Acima de 1200 px
     }
     section#login{
         width: 990px;
+   
     }
     section#login > div#imagem{
         float: left;
@@ -48,4 +80,44 @@ Grandes Telas: Acima de 1200 px
     div#formulario > h1{
         font-size: 2.0em;
     }
+    form > #botao{
+        display: block;
+        text-align: center;
+        font-size: 1em;
+        width: 49%;
+        height: 40px;
+        margin: auto;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        text-decoration: none;
+        margin-top: 5px;
+        background-color: rgb(65, 65, 65);
+    }
+    form > input[type=submit]{
+        display: block;
+        font-size: 1.2em;
+        font-weight: bolder;
+        width: 49%;
+        margin: auto;
+        height: 40px;
+        background-color: red;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        
+    }
+
+    form div.campo{
+        background-color: red;
+        
+    }
+    
 }
+
+
+
+    
+
+

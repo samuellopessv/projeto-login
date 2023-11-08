@@ -40,6 +40,7 @@ section#login > div#imagem {
 }
 section#login > div#formulario{
     padding: 10px;
+    
 }
 div#formulario > h1 {
     text-align: center;
@@ -48,4 +49,49 @@ div#formulario > h1 {
 }
 div#formulario > p{
     font-size: 0.8em;
+}
+
+form > input[type=submit]{
+    display: block;
+    font-size: 1.2em;
+    font-weight: bolder;
+    width: 90%;
+    margin: auto;
+    height: 40px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+form > input[type=submit]:hover{
+    background-color: rgb(207, 86, 86);
+
+    
+}
+form > a.botao{
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 90%;
+    height: 40px;
+    margin: auto;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 5px;
+    background-color: rgb(65, 65, 65);
+}
+
+form > a.botao:hover{
+    background-color: rgb(204, 204, 204);
+    color: rgb(0, 0, 0);
+}
+
+ a > span{
+    font-size: 0.8em
+    
 }
