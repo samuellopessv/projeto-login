@@ -96,6 +96,7 @@ Grandes Telas: Acima de 1200 px
     }
     section#login{
         width: 990px;
+        height: 400px;
    
     }
     section#login > div#imagem{
