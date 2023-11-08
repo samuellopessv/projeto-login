@@ -82,13 +82,15 @@ div.campo >input{
     transform: translateY(-10px);
     height: 100%;
     border-radius: 8px;
+    border: 2px solid rgb(80, 80, 80);
     padding: 4px;
 }
 div.campo1 > input{
     background-color: rgb(245, 242, 242);
+    border: 2px solid rgb(80, 80, 80);
     font-size: 1em;
     width: calc(100% - 45px);
-    transform: translateY(-10px);
+    transform: translateY(-11px);
     height: 100%;
     border-radius: 8px;
     padding: 4px;
